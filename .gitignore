@@ -1,0 +1,11 @@
+# Folders
+**/[Bb]in/
+**/[Oo]bj/
+**/[Pp]ackages/
+**/Stage
+*.DotSettings.user
+.vs
+
+# We want to pin Cake version
+Build/Cake/Tools/*
+!**/Build/Cake/Tools/packages.config
