@@ -16,9 +16,11 @@ public DirectoryPath BuildDirectory => GetPathRelativeToRoot("Build");
 
 public DirectoryPath InstallerSourceDirectory => GetPathRelativeToRoot("Installer");
 
-public DirectoryPath InstallerOutputDirectory => StageDirectory + Directory("Installer");
+public DirectoryPath InstallerOutputDirectory => StageDirectory + Directory("/Installer");
 
-public DirectoryPath NuGetOutputDirectory => StageDirectory + Directory("NuGet");
+public DirectoryPath PackageOutputDirectory => StageDirectory + Directory("/Package");
+
+public DirectoryPath NuGetOutputDirectory => StageDirectory + Directory("/NuGet");
 
 public DirectoryPath SourceDirectory => GetPathRelativeToRoot("Source");
 

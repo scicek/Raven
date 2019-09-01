@@ -10,3 +10,5 @@
 #load local:?path=./Tasks/Compile/CompileConfiguration.cake
 #load local:?path=./Tasks/Compile/DebugTask.cake
 #load local:?path=./Tasks/Compile/ReleaseTask.cake
+
+#load local:?path=./Tasks/Package/PackageTask.cake
